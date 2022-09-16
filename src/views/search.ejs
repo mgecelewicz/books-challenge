@@ -21,7 +21,9 @@
           <button type="submit" class="btn btn-secondary">Search</button>
         </div>
       </form>
-
+      <% for (i = 0; i < books.length; i ++) { %>
+      <p><%= books[i].title%></p>
+      <% } %>
 
     <div class="list-group">
       
